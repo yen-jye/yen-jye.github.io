@@ -1,14 +1,23 @@
-# JYE LABS 개발자 웹사이트
+# JYE LABS developer website
 
-앱 소개·지원·앱별 개인정보처리방침과 AdMob app-ads.txt를 제공하는 정적 GitHub Pages 사이트입니다.
+Source repository for https://io.jyelabs.com.
 
-- 사이트: https://yen-jye.github.io/
-- 연결 예정 도메인: https://io.jyelabs.com/
-- /app-ads.txt
-- /privacy/lotto.html
-- /privacy/loan.html
-- /privacy/site.html
+## Deployment
 
-GitHub Pages 배포: main / (root). 외부 분석 스크립트, 자체 광고, 사용자 입력 폼, 서버·DB는 사용하지 않습니다.
+- Hosting: Cloudflare Pages, project `jyelabs-apps`.
+- Production branch: `main` (Git integration).
+- Framework preset: None.
+- Build command: `exit 0`.
+- Build output directory: `.` (repository root).
+- Default Pages URL: https://jyelabs-apps.pages.dev.
+- Custom domain: https://io.jyelabs.com.
+- GitHub Pages publishing is disabled; GitHub stores the source files.
 
-개인정보처리방침은 앱의 실제 동작이 바뀌면 갱신해야 합니다. 기존 Google Play 개인정보처리방침 URL 변경은 별도로 진행해야 합니다.
+## Public files
+
+- `/app-ads.txt`: Google AdMob authorized seller record.
+- `/privacy/lotto.html`: Lotto Android app privacy notice.
+- `/privacy/loan.html`: Loan calculator Android app privacy notice.
+- `/privacy/site.html`: Website privacy notice.
+
+The site is static HTML/CSS and has no analytics scripts or user data forms. Store website/privacy links and AdMob verification must be configured separately in their consoles.
