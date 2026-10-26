@@ -19,5 +19,6 @@ Source repository for https://io.jyelabs.com.
 - `/privacy/lotto.html`: Lotto Android app privacy notice.
 - `/privacy/loan.html`: Loan calculator Android app privacy notice.
 - `/privacy/site.html`: Website privacy notice.
+- `/m4a-to-mp3/`: M4A to MP3 Converter (free browser tool). Build output of https://github.com/yen-jye/m4a-to-mp3 (`npm ci && npm run build`, then copy `dist/` here). Do not edit these files by hand.
 
-The site is static HTML/CSS and has no analytics scripts or user data forms. Store website/privacy links and AdMob verification must be configured separately in their consoles.
+The site is static HTML/CSS/JS and has no analytics scripts or user data forms. Free tools process files in the browser and do not upload them. Store website/privacy links and AdMob verification must be configured separately in their consoles.
