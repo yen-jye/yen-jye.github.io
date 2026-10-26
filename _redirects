@@ -1,0 +1,2 @@
+/m4a-to-mp3 https://www.m4amp3.jyelabs.com/ 301
+/m4a-to-mp3/* https://www.m4amp3.jyelabs.com/:splat 301
